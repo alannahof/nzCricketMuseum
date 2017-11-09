@@ -54,43 +54,52 @@ BD.onclick = function()
 
 var questions = [
     {
-        question: "How many cricket players suck?",
+        question: "Who is the current Black Caps coach?",
         answers: {
-            a: '20',
-            b: '30',
-            c: '40',
-            d: '69'
-        },
-        correctAnswer: 'a'
-    },
-    {
-        question: "How many cricket players do you personally know not excluding family members?",
-        answers: {
-            a: '0 Bro',
-            b: '600',
-            c: '1000',
-            d: '1600'
-            
-        },
-        correctAnswer: 'b'
-    },
-    {
-        question: "How many cricket?",
-        answers: {
-            a: '10',
-            b: '40',
-            c: '90',
-            d: '5'
+            a: 'Steve Hansen',
+            b: 'Sir Peter Jackson',
+            c: 'Mike Hesson',
+            d: 'James Rendell'
         },
         correctAnswer: 'c'
     },
     {
-        question: "Who Cricket Play?",
+        question: "In 1949, New Zealand sent one of its arguably best sides to play in England. Who was not in this lineup?",
         answers: {
-            a: 'John',
-            b: 'Key',
-            c: 'Flavour',
-            d: 'Jesse'
+            a: 'Bert Sutcliffe',
+            b: 'Martin Donnelly',
+            c: 'Kane Williamson',
+            d: 'Jack Cowie'
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "Who was the first bowler to reach 400 test wickets?",
+        answers: {
+            a: 'Richard Hadlee',
+            b: 'Chris Cairns',
+            c: 'Daniel Vettori',
+            d: 'Trent Boult'
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "What is the correct spelling of the following player?",
+        answers: {
+            a: 'Chris Cairns',
+            b: 'Kris Kenze',
+            c: 'Cris Cairns',
+            d: 'Kryse Karonze'
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "Who won the ICC Cricket World Cup in 2011?",
+        answers: {
+            a: 'USA',
+            b: 'New Zealand',
+            c: 'Sri Lanka',
+            d: 'India'
         },
         correctAnswer: 'd'
     }
