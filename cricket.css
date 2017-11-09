@@ -200,8 +200,40 @@ a:visited {
 	top: 7cm;
 }
 
+h1{
+font-family: Anton;
+font-size: 17px;
 
 
+}
+
+.container2 {
+    width: 50%;
+    height: 50%;
+    background: rgb(146, 153, 143);
+    padding: 10px;
+}
+.questions {
+    width: 40%;
+    height: 200px;
+    background: rgb(190, 226, 172);
+    float: left;
+}
+.buttons {
+    margin-left: 10%;
+    height: 200px;
+    background:rgb(75, 140, 43);
+}
+
+#quiz
+{
+	visibility: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
 
 
 
