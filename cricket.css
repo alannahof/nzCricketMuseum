@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+@-webkit-keyframes travel {
+  from { left: 0;     }
+  to   { left: 640px; }
+}
+
+@-webkit-keyframes bounce {
+  from, to  {
+    bottom: 0;
+    -webkit-animation-timing-function: ease-out;
+  }
+  50% {
+    bottom: 220px;
+    -webkit-animation-timing-function: ease-in;
+  }
+}
+
+@-webkit-keyframes spin {
+  from {                                     }
+  to   { -webkit-transform: rotateZ(360deg); }
+}
+
+/* keyframes definition for other browsers */
+
+@keyframes travel {
+  from { left: 0;     }
+  to   { left: 1200px; }
+}
+
+@keyframes bounce {
+  from, to  {
+    bottom: 0;
+    animation-timing-function: ease-out;
+  }
+  50% {
+    bottom: 220px;
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes spin {
+  from {
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+
+#traveler {
+  position: absolute;
+  width: 200px;
+  height: 500px;
+
+  -webkit-animation-name: travel;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 4.8s;
+
+  animation-name: travel;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 4.8s;
+}
+
+#bouncer {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: red;
+  
+
+  -webkit-animation-name: bounce, spin;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 4.2s;
+
+  animation-name: bounce, spin;
+  animation-iteration-count: infinite;
+  animation-duration: 4.2s;
+}
+
+
+
+html{
+	
+	background-image: url("BasinReserve.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	
+}
+
+
+
+h1{
+font-family: 'Anton';
+}
+
+
+.container{
+	text-align:center;
+	margin-left: 80px;
+	margin-right: 180px;
+	clear: right;
+	background-color:rgba(255,255,255,0.2);
+	width:35%
+	opacity: 0.3;
+
+}
+
+button{
+
+	margin-left: 250px;
+	margin-right: 180px;
+
+
+}
+
+
+.mapImage{
+	border-style: groove;
+	border-width: medium;
+	border-color: transparent;
+	
+	
+
+}
+
+.sidebar {
+    position: fixed;
+    width: 190px;
+    top:75px; right:0; bottom:0;
+    background-color: white;
+    opacity: 0.8;
+    font-family: Anton;
+    text-align: center;
+}
+
+.logo{
+	position: fixed;
+	top:15px; right:50px; bottom:0;
+
+}
+
+ul {
+  	list-style-type: none;
+    color: #000;
+    text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+    text-decoration: none;
+    display: list-item;
+    text-align: center;
+    font-family: Anton;
+    }
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+
+li a:hover {
+  color: #D2691E;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#video{
+	visibility: hidden;
+	position: absolute;
+	top: 5cm;
+	left: 7cm;	
+}
+
+#button{
+	position: absolute;
+	top: 7cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
