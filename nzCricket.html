@@ -16,8 +16,9 @@
 			<H1 id = 'Q'> Q </H1>
 	
 	
-	
+	<center>
 	<section class="container2">
+    	
     	<div class="questions">
     		<H1 id = 'QA'> a </H1>
 			<H1 id = 'QB'> b </H2>
@@ -30,20 +31,20 @@
 			<button id = 'BB'>B</button><br><br>
 			<button id = 'BC'>C</button><br><br>
 			<button id = 'BD'>D</button><br><br>
-			
-			
+		
 		</div>
-    
 	</section>
-	<button id = 'submitBtn'> submit bro </button>
-	<button><a href="C:\Users\filealan\workspace\nzCricket\nzCricket.html"> Back </a></button>
+	
+	<button id = 'submitBtn'> Submit Bro </button>
+	<button onclick="showquiz()"> Back </a></button>
 	<H1 id = 'scoreText'> Score </H2>
+	</center>
 
 		</div>
 	
 		<button type="button" id="button" onclick="showVideo()">Cricket Video</button>
 		
-		<button type="button" id="quizBtn" onclick = "showquiz()"><a href="C:\Users\filealan\workspace\nzCricket\quiz.html">Quiz</a></button>
+		<button type="button" id="quizBtn" onclick = "showquiz()">Quiz</button>
 		
 		<div id="stage">
 			<div id="traveler">
@@ -56,15 +57,23 @@
 			<center><h1>New Zealand Cricket Museum</h1></center>
 		</div>
 		
-		<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/s5juEu-zPTM" frameborder="0" allowfullscreen autoplay></iframe>
+		<div class="instructions">
+			<p>Explore the Museum with this interactive map and experience the fascinating history of Cricket! </p>
+		</div>
+		
+		<div id="videoContainer">
+			<iframe id="video" width="50%" height="50%" src="https://www.youtube.com/embed/s5juEu-zPTM" frameborder="0" allowfullscreen autoplay></iframe>
+		</div>
 		
 		<div class="logo">
 			<img src="logo.png" width=55 height=55/>
 		</div>
 		
 		<div class="container">
-			<div class= "mapImage">
-                <img src="floorplan_transparent.png" width=900 height=500/>	 
+			<div class= "mapImage">	
+				<button type="button" id="quizBtn" onclick="showquiz()">Test your Cricket Knowledge!</a></button>
+				<button type="button" id="button" onclick="showVideo()">Relive the moment here!</button>	
+            	<img src="floorplan_transparent.png" width=900 height=500/>  
 			</div>
 		</div>
 
@@ -76,10 +85,15 @@
    				 	
    			<div class="collectionsDiv"><b>Collections/Objects</b><hr>
    				 	
-	    		<li id="externallink"><a href="www.google.com">Cricket Bat</a></li>
-	   			<li id="externallink"><a href="" >Cricket Ball</a></li>
-	   			<li id="externallink"><a href="">Cricket Hat</a></li>
-				<li id="externallink"><a href=""> More cricket stuff </a></li>
+	    		<li id="externallink"><a href="http://nzcricketmuseum.cloudaccess.host/1956-new-zealand-v-west-indies-eden-park-test-ball/">1956 New Zealand v West Indies</a></li>
+	   			<li id="externallink"><a href="http://nzcricketmuseum.cloudaccess.host/arthur-carman-papers/" >Arthur Carman Papers</a></li>
+	   			<li id="externallink"><a href="http://nzcricketmuseum.cloudaccess.host/collection/">Autograph Bat</a></li>
+				<li id="externallink"><a href="http://nzcricketmuseum.cloudaccess.host/autograph/">Autograph Book: Test cricketers, c1954-1965</a></li>
+				<li id="externallink"><a href="http://nzcricketmuseum.cloudaccess.host/cricket-ball-signed-by-vernon-philander-south-africa/">Cricket Ball; signed by Vernon Philander</a></li>
+				<li id="externallink"><a href="http://nzcricketmuseum.cloudaccess.host/cricket-bat-slazenger-john-reid/">Cricket Bat: Slazenger, John Reid</a></li>
+	   			<li id="externallink"><a href="http://nzcricketmuseum.cloudaccess.host/douglas-jardine-king-george-v/">Douglas Jardine, shakes hands with King George V</a></li>
+	   			<li id="externallink"><a href="http://nzcricketmuseum.cloudaccess.host/minute-book-new-zealand-cricket-ltd-1930-32/">Minute Book</a></li>
+	   			<li id="externallink"><a href="http://nzcricketmuseum.cloudaccess.host/scorebook-miscellaneous-matches-at-lancaster-park-1937-1954/">Scorebook</a></li>
 				</ul>
    			</div>
    				 	
