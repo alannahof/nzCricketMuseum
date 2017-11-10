@@ -120,25 +120,12 @@ font-family: 'Anton';
 	background-color:rgba(255,255,255,0.2);
 	width:35%
 	opacity: 0.3;
-
 }
-
-button{
-
-	margin-left: 250px;
-	margin-right: 180px;
-
-
-}
-
 
 .mapImage{
 	border-style: groove;
 	border-width: medium;
 	border-color: transparent;
-	
-	
-
 }
 
 .sidebar {
@@ -154,7 +141,6 @@ button{
 .logo{
 	position: fixed;
 	top:15px; right:50px; bottom:0;
-
 }
 
 ul {
@@ -169,6 +155,7 @@ li {
     display: list-item;
     text-align: center;
     font-family: Anton;
+    font-size: 14px;
     }
 
 li a {
@@ -191,60 +178,91 @@ a:visited {
 #video{
 	visibility: hidden;
 	position: absolute;
-	top: 5cm;
-	left: 7cm;	
-}
-
-#button{
-	position: absolute;
-	top: 7cm;
-}
-
-h1{
-font-family: Anton;
-font-size: 17px;
-
-
-}
-
-.container2 {
-    width: 50%;
-    height: 50%;
-    background: rgb(146, 153, 143);
-    padding: 10px;
-}
-.questions {
-    width: 40%;
-    height: 200px;
-    background: rgb(190, 226, 172);
-    float: left;
-}
-.buttons {
-    margin-left: 10%;
-    height: 200px;
-    background:rgb(75, 140, 43);
-}
-
-#quiz
-{
-	visibility: hidden;
-	position: absolute;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
 
+#button{
+
+	position: absolute; right: 200px; top: 200px; 
+	padding: 10px; 
+    background-color: green;
+    border-radius: 10px;
+    
+}
 
 
+#quizBtn {
+	
+	position: absolute; left: 200px; top: 150px; 
+	padding: 10px; 
+    background-color: green;
+    border-radius: 10px;
+    
+}
+h1{	
+	font-family: Anton;
+	font-size: 17px;
+	text-align: center;
+}
 
+.container2 {
+    width: 500px;
+    height: 50%;
+    background: rgb(146, 153, 143);
+    padding: 10px;
+}
+.questions {
+    width: 50%;
+    height: 200px;
+    background: rgb(190, 226, 172);
+    float: left;
+}
+.buttons {
+    background:rgb(75, 140, 43);
+    width: 100%;
+    height: 200px;
+}
 
+button:focus{
+	background: grey;
+}
 
+#quiz
+{
+	visibility: hidden;
+	position: absolute;
+	background-color: #807474;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
 
+.hoverDiv{
+    			background-color: #56A256;
+    			padding: 20px;
+    			display: none;
+    			
+}			
+    
+span:hover + .hoverDiv {
+    			display: block;
+    			width: 60%;
+    			font-family: Anton;
+    			
+			}
+.instructions{
+	position: absolute;
+	font-size: 10px;
+	top: 95px;
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;
+    font-family: Anton;
+    text-align: center;
+    z-index: -1; 
 
-
-
-
-
-
-
+}
